@@ -84,6 +84,14 @@
 .recipie img{
     width: 100%;
 }
+.recipie h3{
+    font-weight: bolder;
+    font-size: x-large;
+    margin: 11px 0px;
+}
+.recipie p{
+    line-height: 25px;
+}
 /* numerial-area */
 .social-media{
     padding: 51px 27px;
