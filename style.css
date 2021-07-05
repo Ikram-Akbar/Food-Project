@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+/* header-part */
+.header-area{
+    background-image: url(Resource/header-bg.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.container{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding: 40px;
+    margin: 20px;
+    font-size: 25px;
+}
+.half-width p{
+    margin: 12px 1px;
+}
+.half-width img{
+    width: 61%;
+    padding: 40px;
+}
+.img-right{
+    width: 50%;
+    margin: 40px -34px;
+    padding: 13px 0px;
+}
+
+
+.font{
+    font-size: 48px;
+   
+}
+.text-hilight{
+    color: #FB8C47;
+}
+.link-btn{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    background-color: #FD5433;
+    display: inline-block;
+    font-size: 22px;
+    border-radius: 46px;
+    margin: 23px 26px;
+    cursor: pointer;
+    padding: 20px 62px;
+}
+/* About Me Section */
+.about-me{
+    background-image: url("Resource/about-bg.png");
+    background-repeat: no-repeat;
+}
+.new-part{
+    margin-top: 70px;
+    padding: 10px;
+}
+.color-text{
+    font-weight: bolder;
+    font-size: 60px;
+    color: #707072;
+}
+/* recipie area */
+.my-recipies{
+    margin: 23px 202px;
+    padding: 27px 98px;
+    text-align: center;
+}
+.recipes-list{
+    display: flex;
+}
+.recipie{
+    width: 30%;
+    margin: 21px;
+    padding: 16px;
+    border-radius: 23px;
+    box-shadow: 10px 5px 56px #aaaaaa;
+}
+.recipie img{
+    width: 100%;
+}
+/* numerial-area */
+.social-media{
+    padding: 51px 27px;
+    margin: 28px 65px;
+   
+    
+}
+.new-class{
+    margin: 44px 32px;
+    border-radius: 23px;
+    box-shadow: 10px 5px 56px #aaaaaa;
+}
+/* footer-area */
+.footer{
+     text-align: center;
+     color: white;
+     background-color: black;
+     margin: 12px 20px;
+     padding: 70px 30px;
+}
+.footer p{
+    margin: 12px 10px;
+    padding: 20px 12px;
+}
